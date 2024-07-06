@@ -260,7 +260,7 @@ section.home{
 }
 .banner-img .banner-img-container{
 	position: relative;
-	width: 400px;
+	width: 500px;
 	z-index: 2;
 }
 .banner-img .banner-img-container img{
@@ -973,6 +973,16 @@ section.footer{
 	/* Courses Section */
 	.courses .course-contents .course-card{
 		flex-basis: 100%;
+	}
+	.intentional{
+		width: 100%;
+	}
+	.intentional-img{
+		width: 100%;
+		/* max-width: 100vw; */
+	}
+	.parent-img, .school-img, .edu-img {
+		width: 100%;
 	}
 }
 
