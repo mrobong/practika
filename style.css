@@ -8,7 +8,7 @@ html{
 	scroll-behavior: smooth;
 	
 	/* Variables For Storing Colors */
-	--primary-clr: #052812;
+	--primary-clr: #19422d;
 	--primary-medium-clr: #d8e9df;
 	--primary-light-clr: #edfaf1;
 	--bg-clr-1: #ffffff;
@@ -114,7 +114,7 @@ section.home{
 	text-decoration: none;
 }
 .main-navbar .logo img{
-	width: 120px;
+	width: 150px;
 	height: auto;
 }
 .main-navbar .nav-list{
@@ -356,6 +356,16 @@ section.home{
 }
 /*   === Home Section Styling Ends ===   */
 
+/* carousel styling */
+.carousel-container {
+	width: 100%; /* Adjust the width */
+	max-width: 1000px;
+	margin: 0 auto; /* Center the carousel */
+	padding: 10px; /* Optional padding */
+  }
+  /* carousel styling ends */
+  
+
 /*   === Partners Section Styling Starts ===   */
 section.partners{
 	width: 100%;
@@ -521,7 +531,7 @@ section.courses{
 .course-contents .course-card img{
 	width: 100%;
 	height: 250px;
-	object-fit: cover;
+	/* object-fit: cover; */
 	border-radius: 5px;
 }
 .course-contents .course-card .category{
@@ -1004,19 +1014,9 @@ section.footer{
 	.courses .course-contents .course-card{
 		flex-basis: 100%;
 	}
-	.intentional{
-		width: 100%;
-	}
-	.intentional-img{
-		width: 100%;
-		/* max-width: 100vw; */
-	}
-	.parent-img, .school-img, .edu-img {
-		width: 100%;
-	}
-	.banner-img-container .kid{
-		width: 50%;
-	}
+	
+	
+	
 }
 
 @media(max-width: 568px){
